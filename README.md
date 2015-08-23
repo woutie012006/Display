@@ -1,6 +1,7 @@
 # Display
 
 Project focused on interfacing with a TFT LCD Touch screen display.
+
 Will include:
 * Resistive touch input
 * Display of standard figures (buttons/text etc.)
