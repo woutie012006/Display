@@ -1,0 +1,6 @@
+# VisualStudio crap #
+#####################
+*.sdf
+#*.sln
+*.suo
+/Display
