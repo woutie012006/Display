@@ -21,15 +21,13 @@ Would like to include:
 
 ####PC software
 
-Will be built in Qt Designer for multi-platform support.
+Will be built in C# for conveneance
 
 Will include:
 * PC <-> uC communication over the internet
-* Cutting project uploading
+* CNC cut project uploading
 * Manual controls
-
-Would like to include
-* Live simulation of the cut
+* Live 'simulation' of the cut
 
 #Hardware
 
