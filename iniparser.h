@@ -1,26 +1,21 @@
-#ifndef _INIPARSER_H_
-#define _INIPARSER_H_
+#pragma once
 
-#include <QtCore>
-#include <QDebug>
-#include <QFile>
+#include <stdio>
+#include <string>
 
-class INIparser : public QObject
+class INIparser
 {
-	Q_OBJECT
-
 public:
-	static qint16 createFile(QString filename);
-	static qint16 deleteFile(QString filename);
+	int createFile(string filename);
+	int deleteFile(string filename);
 
-	static qint16 createVariable(QString filename, QString data, QString value);
-	static qint16 deleteVariable(QString filename, QString data);
+	int createVariable(string filename, string data, string value);
+	int deleteVariable(string filename, string data);
 
-	static qint16 setData(QString filename, QString data, QString value, bool createIfNotExist = true);
-	static qint16 getData(QString filename, QString data, QString *output);
+	int setData(string filename, string data, string value, bool createIfNotExist = true);
+	int getData(string filename, string data, string *output);
 
-	static qint16 addSection(QString filename, QString sectionName);
-	// Static so function can be called outside of the class without makeing an object first
+	int addSection(string filename, string sectionName);
 };
 
-#endif
+extern INIparser iniparser;
