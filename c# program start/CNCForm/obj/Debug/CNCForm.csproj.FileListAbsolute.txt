@@ -1,0 +1,9 @@
+c:\users\woute\documents\visual studio 2012\Projects\CNCForm\CNCForm\bin\Debug\CNCForm.exe.config
+c:\users\woute\documents\visual studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.csprojResolveAssemblyReference.cache
+c:\users\woute\documents\visual studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.MainForm.resources
+c:\users\woute\documents\visual studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.Properties.Resources.resources
+c:\users\woute\documents\visual studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.csproj.GenerateResource.Cache
+C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\bin\Debug\CNCForm.exe
+C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\bin\Debug\CNCForm.pdb
+C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.exe
+C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.pdb
