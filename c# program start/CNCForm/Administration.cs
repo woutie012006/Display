@@ -15,31 +15,6 @@ namespace CNCForm
     {
         List<Instruction> instructions = new List<Instruction>();
 
-        /// <summary>
-        /// Inserts the point at the wanted position 
-        /// </summary>
-        /// <param name="position"></param>
-        /// <param name="p"></param>
-        /// <returns></returns>
-        public bool InsertInstruction(int position, Instruction p)
-        {
-            try
-            {
-                List<Instruction> np = new List<Instruction>(); //new Instructions
-                for (int i = 0; i < instructions.Count + 1; i++)
-                {
-                    if (i == position)
-                    {
-                        np.Add(p);
-                    }
-                    np.Add(instructions[i]);
-                }
-                instructions = np;
-            }
-            catch (Exception e) { Debug.WriteLine(e); return false; }
-            return true;
-        }
-
         private void SaveToBinary(string path)
         {
             using (Stream fileStream = new FileStream(path, FileMode.Create,
