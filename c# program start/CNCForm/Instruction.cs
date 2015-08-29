@@ -11,36 +11,30 @@ namespace CNCForm
     [Serializable]
     public class Instruction
     {
-        List<Point> points {get; set;}
-        
-        public Instruction(List<Point> points ) 
-        { 
-            this.points = points;
-        }
+        //Point kan alleen int gebruiken
 
-        /// <summary>
-        /// Inserts the point at the wanted position 
-        /// </summary>
-        /// <param name="position"></param>
-        /// <param name="p"></param>
-        /// <returns></returns>
-        public bool InsertInstruction(int position, Point p)
+        //startpoint
+        private double x1 {get; set;  }
+        private double y1 {get; set; }
+
+        //endpoint
+        private double x2 { get; set; }
+        private double y2 { get; set; }
+
+        //position of the drill 0 = up and 1 = down (feel free to change this)
+        private int position;
+
+
+        public Instruction(double x1, double y1, double x2, double y2, int position) 
         {
-            try 
-            { 
-                List<Point> np = new List<Point>(); //newPoints
-                for(int i = 0; i< points.Count+1;i++)
-                {
-                    if(i == position)
-                    {
-                        np.Add(p);
-                    }
-                    np.Add(points[i]);
-                }
-                points = np;
-            }
-            catch (Exception e) { Debug.WriteLine(e); return false; }
-            return true;
+            this.x1 = x1;
+            this.y1 = y1;
+
+            this.x2 = x2;
+            this.y2 = y2;
+
+            this.position = position;
+
         }
     }
 }

@@ -7,3 +7,12 @@ C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\bin\Debug\C
 C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\bin\Debug\CNCForm.pdb
 C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.exe
 C:\Users\woute\Documents\Visual Studio 2012\Projects\CNCForm\CNCForm\obj\Debug\CNCForm.pdb
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\bin\Debug\CNCForm.exe.config
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\obj\Debug\CNCForm.exe
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\obj\Debug\CNCForm.pdb
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\obj\Debug\CNCForm.csprojResolveAssemblyReference.cache
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\obj\Debug\CNCForm.MainForm.resources
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\obj\Debug\CNCForm.Properties.Resources.resources
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\obj\Debug\CNCForm.csproj.GenerateResource.Cache
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\bin\Debug\CNCForm.exe
+C:\Users\woute\Documents\GitHub\Display\c# program start\CNCForm\bin\Debug\CNCForm.pdb
